@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body onload="checkNickname()">
+    <div id="welcomeMessage"></div>
+    <form id="nicknameForm">
+        <label for="nickname">Enter your nickname:</label>
+        <input type="text" id="nickname" name="nickname">
+        <button type="button" onclick="saveNickname()">Submit</button>
+    </form>
+</body>
+</html>
